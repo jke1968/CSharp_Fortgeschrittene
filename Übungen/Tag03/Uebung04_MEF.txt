@@ -1,0 +1,10 @@
+Übung 04 MEF
+============
+
+Erstellen Sie eine C# Applikation, in der eine Exkursion mit einem Fahrzeug auf einem Planeten simuliert wird. Ein Planet wird durch den Namen und die Gravitationskonstante charakterisiert. Ein Fahrzeug durch Namen und Masse. Dem Planeten wird per Property-Injection ein Fahrzeug zugeordnet.
+
+Die Simulation soll sich auf eine Ausgabe wie folgt beschränken:
+
+"Fahrt auf Planet Erde mit Fahrzeug Rover : Gewichtskraft 981 N" 
+
+Der Applikation sollen beim Start verschiedene Planeten-Assemblies und verschiedene Fahrzeug-Assemblies zur Verfügung stehen, die sie mit Hilfe von MEF beliebig komponiert. Dann soll für alle gefundenen Planeten die Simulation gestartet werden (s.o.).

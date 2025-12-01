@@ -1,0 +1,15 @@
+Übung 03A Lambda Expressions
+============================
+
+Die Klasse Artikel hat die Attribute Nr, Name und Preis. Erstellen Sie die Klasse "Artikel" und eine Artikelliste vom Typ List<Artikel>. Speichern Sie einige Artikel in der Liste.
+
+Ermitteln Sie nun folgende Informationen aus der Artikelliste und verzichten Sie dabei auf Schleifen und Verzweigungen.
+
+1) Alle Artikel
+2) Alle Artikel sortiert nach Namen
+3) Alle Artikel mit Nr = 100
+4) Alle Artikel mit Namen = "Schraube"
+5) Die Summe aller Preise
+6) Alle Artikel, die einen Namen haben ( = bei denen Name nicht null ist)
+
+Hinweis: suchen sie in der MSDN Dokumentation nach Methoden der Klasse System.Collections.Generic.List<T> um die obige Anforderungen zu realisieren.

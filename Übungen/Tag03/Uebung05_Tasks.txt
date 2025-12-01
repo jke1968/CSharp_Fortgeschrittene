@@ -1,0 +1,13 @@
+Übung 05 Tasks
+==============
+
+a)
+Schreiben Sie ein Programm mit einer Methode void Counter(int limit), die die Zahlen von 0 bis limit sowie die id des threads, auf der sie ausgeführt wird, ausgibt.  Starten Sie nun in main() zwei Tasks, die jeweils die Methode Counter ausführen. Der main thread soll vor Beendigung auf das Ende der beiden gestarteten Tasks warten. Um das Programm besser beobachten zu können, soll in der Funktion Counter nach Ausgabe jeder Zahl der ausführende Thread 1 Sekunde pausieren.
+
+b) 
+Erweitern Sie das Programm nun so, dass der main thread eine der beiden Tasks 3 Sekunden nach deren Start stoppt.
+
+c)
+Erweitern Sie nun die Funktion Counter so, dass sie die Summe der ausgegebenen Zahlen berechnet und zurückgibt.
+
+Inwiefern wäre diese Übung schwieriger gewesen, wenn man statt Tasks Threads verwendet hätte?

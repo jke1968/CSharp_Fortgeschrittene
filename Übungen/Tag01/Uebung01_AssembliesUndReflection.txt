@@ -1,0 +1,46 @@
+Übung 01 Assemblies und Reflection
+==================================
+
+a)
+
+Erstellen Sie zwei C# Projekte "Uebung01Main" und "Uebung01_Library". "Uebung01Main" soll eine ausführbare Assembly erzeugen, die eine Main Funktion enthält, "Uebung01_Library" hingegen soll eine strongly named DLL-Assembly erzeugen.
+
+Die Assembly "Uebung01_Libray" soll eine Klasse "Utility" mit einer Methode "ShowDependencyGraph" beinhalten, die für diese Assembly und rekursiv für alle Assemblies von denen sie abhängt, folgendes ausgibt:
+
+1. den einfachen Assemblynamen
+2. den Pfadnamen der DLL
+3. die Versionsnummer
+optional (4. einen Hinweis, ob die Assembly aus dem GAC geladen wurde oder nicht)
+
+Die Main-Methode in  "Uebung01Main" soll die Assembly "Uebung01_Library" explizit per Assembly.Load laden, ein Objekt der Klasse Utility erzeugen und die Methode "ShowDependencyGraph" aufrufen.
+
+Die Ausgabe könnte dann z.B. so aussehen:
+
+START
+Level 0 Uebung01_Library 1.0.0.1 False
+ Level 1 mscorlib 4.0.0.0 True
+ Level 1 System.Core 4.0.0.0 True
+  Level 2 System 4.0.0.0 True
+   Level 3 System.Configuration 4.0.0.0 True
+    Level 4 System.Xml 4.0.0.0 True
+     Level 5 System.Data.SqlXml 4.0.0.0 True
+      Level 6 System.Security 4.0.0.0 True
+       Level 7 System.Numerics 4.0.0.0 True
+STOP
+
+b1)
+
+Installieren Sie nun, sofern die notwendigen Rechte vorhanden sind, die Assembly "Uebung01_Library" zusätzlich im GAC und beobachten Sie, welche Version der Loader lädt. Deinstallieren Sie die Assembly wieder aus dem GAC und beobachten Sie erneut. 
+
+Was passiert, wenn 2 verschiedene Versionen der Assembly im GAC installiert sind und das Programm "Uebung01" einmal die eine Version und einmal die andere Version per Assembly.Load lädt ? 
+
+
+Für .NET 5 und höher (ohne GAC):
+b2)
+
+Installieren Sie nun die Assembly "Uebung01_Library" zusätzlich in einem anderen Verzeichnis.
+
+Was passiert, wenn 2 verschiedene Versionen der Assembly installiert sind und das Programm "Uebung01" gegen die eine Version kompiliert wurde und per "Assembly.LoadFrom" die andere Version lädt ? 
+
+
+

@@ -1,0 +1,24 @@
+Übung 03B LINQ
+==============
+
+Die Klasse Employee hat die Eigenschaften Name, Salary, Department. Erstellen Sie eine List<Employee> und füllen Sie diese mit einigen Testdaten.
+
+Schreiben Sie nun Abfragen für folgende Anforderungen, verzichten Sie dabei auf Schleifen und Verzweigungen, 
+verwenden Sie stattdessen LINQ Query Expressions (from .. where ... select) oder LINQ Dot Notation ( persons.Where(...).OrderBy(..).Select(..) )
+
+1. Angestellte mit bestimmtem Namen finden
+2. Liste aller Angestellten aus einer Abteilung, sortiert nach Namen
+3. Die Namen aller Mitarbeiter aus einer Abteilung
+4. Die Summe der Gehälter aus einer Abteilung
+5. Die Namen aller Mitarbeiter, gruppiert nach Abteilung
+ 
+
+zu 5.
+
+Development
+  Smith
+  Harris
+  Walker
+Sales
+  Meyer
+  Mueller

@@ -1,0 +1,8 @@
+﻿<!-- Das Root Element der XML Datei -->
+<persons>
+  <!-- Der Inhalt des elements person ist der Name -->
+  <!-- Das Attribut salary beinhaltet das Gehalt -->
+  <person salary="1000">Breitner</person>
+  <person salary="2000">Vogts</person>
+  <person salary="1000">Overath</person>
+</persons>

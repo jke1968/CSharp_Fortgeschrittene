@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adressen>
+	<adresse>
+		<name>
+			<vorname>Peter</vorname>
+			<nachname>Weiss</nachname>
+		</name>
+		<plz>70865</plz>
+		<stadt>Stuttgart</stadt>
+		<telefon type="private">
+			<land>0049</land>
+			<stadt>(0)711</stadt>
+			<nummer>5438965</nummer>
+		</telefon>
+		<telefon type="office">
+			<land>0049</land>
+			<stadt>(0)711</stadt>
+			<nummer>564398</nummer>
+		</telefon>
+		<telefon type="office">
+			<land>001</land>
+			<stadt>654</stadt>
+			<nummer>987654</nummer>
+		</telefon>
+	</adresse>
+	<adresse>
+		<name>
+			<vorname>Christiane</vorname>
+			<nachname>Grün</nachname>
+		</name>
+		<plz>80865</plz>
+		<stadt>München</stadt>
+		<telefon type="private">
+			<land>0049</land>
+			<stadt>(0)89</stadt>
+			<nummer>7868965</nummer>
+		</telefon>
+		<telefon type="office">
+			<land>0049</land>
+			<stadt>(0)89</stadt>
+			<nummer>8765348</nummer>
+		</telefon>
+	</adresse>
+	<adresse>
+		<name>
+			<vorname>Bernd</vorname>
+			<nachname>Schwarz</nachname>
+		</name>
+		<plz>70865</plz>
+		<stadt>Tübingen</stadt>
+		<telefon type="private">
+			<land>0049</land>
+			<stadt>(0)7071</stadt>
+			<nummer>8553482</nummer>
+		</telefon>
+		<telefon type="private">
+			<land>0049</land>
+			<stadt>(0)711</stadt>
+			<nummer>9876635</nummer>
+		</telefon>
+		<telefon type="office">
+			<land>0049</land>
+			<stadt>(0)7071</stadt>
+			<nummer>97376547</nummer>
+		</telefon>
+	</adresse>
+</adressen>

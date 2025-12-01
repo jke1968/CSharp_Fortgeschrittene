@@ -1,0 +1,9 @@
+Übung 02 A Delegates
+====================
+
+
+Schreiben Sie ein C# Programm, das eine List von Person-Objekten enthält. Eine Person hat eine Id und einen Namen.
+
+Es soll ausserdem eine Methode "ProcessPersons" geschrieben werden, der Methoden zur Ausgabe des Namens, bzw. zur Ausgabe der Id übergeben werden können.  
+
+Je nachdem, wie "ProcessPersons" aufgerufen wird, werden entweder alle Namen oder alle IDs aus der List ausgegeben.

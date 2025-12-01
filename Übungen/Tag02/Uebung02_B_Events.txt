@@ -1,0 +1,8 @@
+Übung 02 B Events
+=================
+
+Erstellen Sie eine Klasse "Share" die eine Aktie repräsentiert. Neben einem Kurswert hat jedes Share-Objekt ein Limit, bei dessen Überschreitung eine Meldung ausgelöst wird. Zu diesem Zweck deklariert die Klasse Share ein Event namens "LimitReached".
+
+Erstellen Sie eine zweite Klasse "ShareObserver", mit einer Methode "PrintWarning". Erstellen Sie eine Klasse mit einer Main Methode, in der  ein Share Objekt erzeugt wird, sowie mehrere ShareObserver Objekte, deren PrintWarning Methode beim LimitReached Event des Share Objekts registriert wird. 
+
+Ändern Sie nun schrittweise den Kurswert des Share Objekts und beobachten Sie das Verhalten des ShareObservers.

@@ -1,0 +1,18 @@
+�bung zu Kapitel 05 LINQ Expressions
+====================================
+
+Erstellen Sie ein C# Programm, das aus der XML Datei "adressen.xml" die Vor- und Nachnamen jeder Adresse sowie die dazugeh�rigen Telefonnummern extrahiert und sortiert nach Nachnamen ausgibt.
+
+Beispielausgabe:
+
+Christiane Gruen
+  0049-(0)89-7868965 (private)
+  0049-(0)89-8765348 (office)
+Bernd Schwarz
+  0049-(0)7071-8553482 (private)
+  0049-(0)711-9876635 (private)
+  0049-(0)7071-97376547 (office)
+Peter Weiss
+  0049-(0)711-5438965 (private)
+  0049-(0)711-564398 (office)
+  001-654-987654 (office)
